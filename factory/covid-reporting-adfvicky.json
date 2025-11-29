@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adfvicky",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "85aff798-bec6-454a-926d-b9e290036abe",
+		"tenantId": "129c8d38-d4ef-4661-a1c7-a6dbd19b2f77"
+	}
+}
