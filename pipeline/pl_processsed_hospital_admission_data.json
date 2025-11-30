@@ -27,6 +27,9 @@
 				}
 			}
 		],
+		"folder": {
+			"name": "processed"
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-11-28T09:24:26Z"
 	},

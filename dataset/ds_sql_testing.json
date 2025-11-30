@@ -1,5 +1,5 @@
 {
-	"name": "ds_sql_cases_and_deaths",
+	"name": "ds_sql_testing",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_sql_covid_db",
@@ -24,32 +24,40 @@
 				"type": "varchar"
 			},
 			{
+				"name": "year_week",
+				"type": "varchar"
+			},
+			{
+				"name": "week_start_date",
+				"type": "date"
+			},
+			{
+				"name": "week_end_date",
+				"type": "date"
+			},
+			{
+				"name": "new_cases",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "tests_done",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
 				"name": "population",
 				"type": "bigint",
 				"precision": 19
 			},
 			{
-				"name": "cases_count",
-				"type": "bigint",
-				"precision": 19
-			},
-			{
-				"name": "deaths_count",
-				"type": "bigint",
-				"precision": 19
-			},
-			{
-				"name": "reported_date",
-				"type": "date"
-			},
-			{
-				"name": "source",
+				"name": "testing_data_source",
 				"type": "varchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "covid_reporting",
-			"table": "cases_and_deaths"
+			"table": "testing"
 		}
 	}
 }
